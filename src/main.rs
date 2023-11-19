@@ -4,7 +4,7 @@
 use cortex_m_rt::entry;
 use stm32h7xx_hal::{pac, prelude::*};
 
-use panic_halt as _;
+use panic_rtt_target as _;
 
 use rtt_target::{rprintln, rtt_init_print};
 
